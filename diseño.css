@@ -10,3 +10,49 @@ body {
     right: 100px;
     top: 50px;
 }
+
+.in{
+    width: 400px;
+    height: 50px;
+    position: absolute;
+    right: 50px;
+    top: 200px;
+}
+
+.ou{
+    width: 400px;
+    height: 50px;
+    position: absolute;
+    right: 50px;
+    top: 300px;
+}
+
+.user{
+    font-size: 20px;
+    font-style: oblique;
+    
+    position: absolute;
+    right: 380px;
+    top: 170px;
+}
+
+.pass{
+    font-size: 20px;
+    font-style: oblique;   
+    position: absolute;
+    right: 380px;
+    top: 270px;
+}
+
+.B1{
+    width: 300px;
+    height: 50px;
+    position: absolute;
+    right: 100px;
+    top: 470px;
+}
+
+.login{
+    position: absolute;
+    right: 200px;
+}
