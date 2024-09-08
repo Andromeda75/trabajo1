@@ -1,3 +1,12 @@
 body {
     background-color: rgb(19, 212, 226);
 }
+
+.Diseño1{
+    width: 500px;
+    height: 700px;
+    background-color: aliceblue;
+    position: absolute;
+    right: 100px;
+    top: 50px;
+}
