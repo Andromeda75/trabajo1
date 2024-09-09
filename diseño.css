@@ -1,58 +1,91 @@
-body {
-    background-color: rgb(19, 212, 226);
+.container {
+    display: flex;
+    align-items: center;
 }
 
-.Diseño1{
-    width: 500px;
-    height: 700px;
-    background-color: aliceblue;
-    position: absolute;
-    right: 100px;
-    top: 50px;
+body{
+    background-size: cover; /* Hace que la imagen cubra toda la página */
+    background-position: center; /* Centra la imagen en la página */
 }
 
-.in{
-    width: 400px;
-    height: 50px;
+
+.rectangle {
+    width: 6000px; /* Ajusta el ancho del rectángulo según sea necesario */
+    height: 100px; /* Ajusta la altura del rectángulo según sea necesario */
+    background-color: #cccccc95;
+    margin-right: 10px;
+}
+
+.logo {
+    width: 100px; /* Ajusta el ancho de la imagen según sea necesario */
+    height: auto; /* La altura se ajusta automáticamente para mantener la proporción */
+}
+
+table {
+    background-color: rgba(13, 160, 18, 0.312);
     position: absolute;
-    right: 50px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50vh;
+    height: 60vh;
+}
+
+.button1 {
+    width: 150px; /* Ancho del botón */
+    height: 30px; /* Alto del botón */
+    font-size: 16px; /* Tamaño del texto */
+    position: relative;
+    top: 280px;
+    left: 70px;
+}
+
+
+.TituloLogin{
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    position: absolute;
+    top: 0px;
+    left: 20px;
+    width: 1050px; /* Ajusta el ancho del rectángulo según sea necesario */
+    height: 100px; /* Ajusta la altura del rectángulo según sea necesario */
+
+}
+
+.loginuser{
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    position: absolute;
+    top: 100px;
+    left: 90px;
+    font-size: 30px;
+
+}
+.loginuser1{
+    position: absolute;
+    top: 150px;
+    left: 60px;
+
+}
+
+.loginpassword{
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    position: absolute;
+    top: 190px;
+    left: 80px;
+    font-size: 30px;
+
+}
+.loginpassword1{
+    position: absolute;
+    top: 230px;
+    left: 60px;
+
+}
+
+.Login {
+    background-color: rgba(13, 160, 18, 0.219);
+    position: absolute;
     top: 200px;
-}
-
-.ou{
-    width: 400px;
-    height: 50px;
-    position: absolute;
-    right: 50px;
-    top: 300px;
-}
-
-.user{
-    font-size: 20px;
-    font-style: oblique;
-    
-    position: absolute;
-    right: 380px;
-    top: 170px;
-}
-
-.pass{
-    font-size: 20px;
-    font-style: oblique;   
-    position: absolute;
-    right: 380px;
-    top: 270px;
-}
-
-.B1{
-    width: 300px;
-    height: 50px;
-    position: absolute;
-    right: 100px;
-    top: 470px;
-}
-
-.login{
-    position: absolute;
-    right: 200px;
+    left: 600px;
+    width: 300px; /* Ajusta el ancho del rectángulo según sea necesario */
+    height: 400px; /* Ajusta la altura del rectángulo según sea necesario */
 }
